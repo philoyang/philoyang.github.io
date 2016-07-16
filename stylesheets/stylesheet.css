@@ -37,6 +37,18 @@ code, pre {
     padding: 2px 6px;
     border-radius: 2px;
 }
+::selection {
+    background-color: #b5e853;
+    color: #fff;
+}
+::-moz-selection {
+    background-color: #b5e853;
+    color: #fff;
+}
+::-webkit-selection {
+    background-color: #b5e853;
+    color: #fff;
+}
 /* Header, <header>
    header   - container
    h1       - project name
