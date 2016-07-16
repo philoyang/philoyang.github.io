@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 768px;
   margin: 0 auto;
 }
 
@@ -46,19 +46,19 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
+  /* margin: 0 0 0 -40px; */
   font-weight: bold;
   color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  0 0 5px rgba(181, 232, 83, 0.1),
+  0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
 
 /*header h1:before {*/
-  /*content: "./ ";*/
-  /*font-size: 24px;*/
+/*content: "./ ";*/
+/*font-size: 24px;*/
 /*}*/
 
 header h2 {
@@ -90,8 +90,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  0 0 5px rgba(181, 232, 83, 0.1),
+  0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
