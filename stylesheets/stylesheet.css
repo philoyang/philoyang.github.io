@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
-  font: 16px;
+  font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -57,10 +57,10 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
-}
+/*header h1:before {*/
+  /*content: "./ ";*/
+  /*font-size: 24px;*/
+/*}*/
 
 header h2 {
   font-size: 18px;
