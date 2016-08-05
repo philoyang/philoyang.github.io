@@ -9,7 +9,7 @@
 
     <style>
         #container {
-            margin: 0px auto;
+            margin: 0 auto;
             width: 500px;
             height: 375px;
             border: 10px #333 solid;
@@ -34,6 +34,7 @@
     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
 
     if (navigator.getUserMedia) {
+        alert('开始干活咯');
         navigator.getUserMedia({video: true}, handleVideo, videoError);
     }
 
